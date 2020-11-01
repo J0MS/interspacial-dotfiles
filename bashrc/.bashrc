@@ -12,7 +12,7 @@
 
 # Some applications read the EDITOR variable to determine your favourite text
 # editor. So uncomment the line below and enter the editor of your choice :-)
-#export EDITOR=/usr/bin/vim
+export EDITOR=/usr/bin/nvim
 #export EDITOR=/usr/bin/mcedit
 
 # For some news readers it makes sense to specify the NEWSSERVER variable here
@@ -36,3 +36,11 @@ export QT_QPA_PLATFORMTHEME="qt5ct"
 if [ -f /usr/share/powerline/bash/powerline.sh ]; then
 source /usr/share/powerline/bash/powerline.sh
 fi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+alias poetry="python3 $HOME/.poetry/bin/poetry"
+
+#qfc
+[[ -s "$HOME/.qfc/bin/qfc.sh" ]] && source "$HOME/.qfc/bin/qfc.sh"
+
+#Test nood
