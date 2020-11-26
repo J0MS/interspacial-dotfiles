@@ -44,3 +44,6 @@ alias poetry="python3 $HOME/.poetry/bin/poetry"
 [[ -s "$HOME/.qfc/bin/qfc.sh" ]] && source "$HOME/.qfc/bin/qfc.sh"
 
 #Test nood
+alias "c=xclip"
+alias "v=xclip -o"
+
