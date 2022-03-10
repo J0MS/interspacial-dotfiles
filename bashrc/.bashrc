@@ -50,4 +50,3 @@ alias poetry="python3 $HOME/.poetry/bin/poetry"
 #Test nood                                                                                                                                                                                                           
 alias "c=xclip"                                                                                                                                                                                                      
 alias "v=xclip -o"    
-#hola
