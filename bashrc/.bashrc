@@ -42,7 +42,8 @@ fi
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash                                                                                                                                                                             
                                                                                                                                                                                                                      
 #poetry config                                                                                                                                                                                                       
-alias poetry="python3 $HOME/.poetry/bin/poetry"                                                                                                                                                                      
+#Install from https://github.com/python-poetry/poetry
+alias poetry="$HOME/.local/bin/poetry"                                                                                                                                                                     
                                                                                                                                                                                                                      
 #qfc                                                                                                                                                                                                                 
 [[ -s "$HOME/.qfc/bin/qfc.sh" ]] && source "$HOME/.qfc/bin/qfc.sh"                                                                                                                                                   
