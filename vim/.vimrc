@@ -1,10 +1,3 @@
-" python3 from powerline.vim import setup as powerline_setup
-" python3 powerline_setup()
-" python3 del powerline_setup
-
-" set  rtp+=/usr/local/lib/python3.6/site-packages/powerline/bindings/vim/
-" set laststatus=2
-" set t_Co=256
 
 "system
 execute pathogen#infect()
@@ -22,8 +15,10 @@ let g:airline_theme='badwolf'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tmuxline#enabled = 1
 
-
+"key maps
 map <F5> :NERDTreeToggle<CR>
+map <F6> :bp<CR>
+map <F7> :bn<CR>
 
 "split navigations
 nnoremap <C-J> <C-W><C-J>
