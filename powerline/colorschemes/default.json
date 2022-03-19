@@ -52,7 +52,7 @@
 		"cwd:divider":                { "fg": "gray2",           "bg": "gray4", "attrs": [] },
 		"virtualenv":                 { "fg": "white",           "bg": "darkcyan", "attrs": [] },
 		"attached_clients":           { "fg": "gray8",           "bg": "gray0", "attrs": [] },
-		"gitstatus":                  { "fg": "white_red",           "bg": "black", "attrs": [] },
+		"gitstatus":                  { "fg": "white_red",       "bg": "black", "attrs": [] },
         "gitstatus_branch":           { "fg": "black",           "bg": "black", "attrs": [] },
 		"gitstatus_branch_clean":     { "fg": "green",           "bg": "gray2", "attrs": [] },
         "gitstatus_branch_dirty":     { "fg": "black",           "bg": "brightestorange", "attrs": ["bold"] },
@@ -65,6 +65,6 @@
 		"gitstatus_changed":          { "fg": "mediumorange",    "bg": "darkestblue", "attrs": [] },
 		"gitstatus_untracked":        { "fg": "brightestorange", "bg": "gray2", "attrs": [] },
 		"gitstatus_stashed":          { "fg": "darkblue",        "bg": "gray2", "attrs": [] },
-	        "gitstatus:divider":      { "fg": "gray8",           "bg": "gray2", "attrs": [] }
+        "gitstatus:divider":      { "fg": "gray8",               "bg": "gray2", "attrs": [] }
 	}
 }
