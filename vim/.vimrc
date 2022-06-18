@@ -5,6 +5,8 @@ syntax on
 filetype plugin indent on
 set clipboard=unnamed
 
+let NERDTreeShowHidden=1
+
 "airline
 let g:airline#extensions#tabline#enabled = 1
 "let g:airline#extensions#tabline#left_sep = ' '
@@ -12,10 +14,13 @@ let g:airline#extensions#tabline#enabled = 1
 "let g:airline#extensions#tabline#formatter = 'default'
 
 let g:airline_theme='badwolf'
+"let g:airline_theme='deus'
+"let g:airline_theme='wombat'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tmuxline#enabled = 1
 
 "key maps
+set pastetoggle=<F3>
 map <F5> :NERDTreeToggle<CR>
 map <F6> :bp<CR>
 map <F7> :bn<CR>
@@ -26,19 +31,17 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-"system clipboard
-set clipboard=unnamed
-
 
 
 "themes
 "highlight Visual cterm=reverse ctermbg=NONE
-"let g:airline_theme='one'
 
-colorscheme nord
+"Global params for run themes inside tmux 
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 set termguicolors
+
+"colorscheme nord
 
 "colorscheme one
 "set background=dark
@@ -48,7 +51,23 @@ set termguicolors
 
 "colorscheme hydrangea
 "colorscheme oceanic
-"
+"colorscheme dogrun
+"let g:lightline = {
+"  \ 'colorscheme': 'dogrun',
+"  \ }
+"let g:clap_theme = 'dogrun'
+
+"colorscheme aquarium
+
+"colorscheme saturnite
+"augroup colorscheme_change | au!
+"    au ColorScheme saturnite hi Normal ctermbg=NONE
+"augroup END
+
+"colorscheme saturnite
+"colorscheme embark
+colorscheme lucius
+"colorscheme alduin
 
 
 "fuzzy finder conf
