@@ -4,15 +4,14 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 set clipboard=unnamed
-
 let NERDTreeShowHidden=1
+set updatetime=100
 
 "airline
 let g:airline#extensions#tabline#enabled = 1
 "let g:airline#extensions#tabline#left_sep = ' '
 "let g:airline#extensions#tabline#left_alt_sep = '|'
 "let g:airline#extensions#tabline#formatter = 'default'
-
 let g:airline_theme='badwolf'
 "let g:airline_theme='deus'
 "let g:airline_theme='wombat'
@@ -32,7 +31,6 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 
-
 "themes
 "highlight Visual cterm=reverse ctermbg=NONE
 
@@ -42,12 +40,10 @@ let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 set termguicolors
 
 "colorscheme nord
-
 "colorscheme one
 "set background=dark
 "set t_8b=^[[48;2;%lu;%lu;%lum
 "set t_8f=^[[38;2;%lu;%lu;%lum
-
 
 "colorscheme hydrangea
 "colorscheme oceanic
@@ -89,4 +85,8 @@ let g:fzf_colors =
 \ 'marker':  ['fg', 'Keyword'],
 \ 'spinner': ['fg', 'Label'],
 \ 'header':  ['fg', 'Comment'] }
+
+"rainbow brackets config
+let g:rainbow_active = 1
+
 
