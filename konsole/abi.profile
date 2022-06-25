@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=Moe
+ColorScheme=Amethyst
 Font=Droid Sans Mono Slashed for Powerline,11,-1,5,50,0,0,0,0,0
 
 [General]
