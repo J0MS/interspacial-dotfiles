@@ -23,3 +23,6 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
+
+export DENO_INSTALL="/home/icarus/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
