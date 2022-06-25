@@ -51,3 +51,6 @@ alias poetry="$HOME/.local/bin/poetry"
 #Test nood                                                                                                                                                                                                           
 alias "c=xclip"                                                                                                                                                                                                      
 alias "v=xclip -o"    
+
+#Set TERM variable
+export TERM="xterm-256color"
