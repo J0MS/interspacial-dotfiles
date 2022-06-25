@@ -97,4 +97,14 @@ let g:VM_maps = {}
 let g:VM_maps["Undo"]      = 'u'
 let g:VM_maps["Redo"]      = '<C-r>'
 
+autocmd! BufWritePost ~/.vimrc nested :source ~/.vimrc
+set background=dark
+set t_Co=256
+
+" Enable true color
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
+endif
 
