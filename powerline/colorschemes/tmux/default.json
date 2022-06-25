@@ -9,6 +9,8 @@
 		"window:current":       {"fg": "black",      "bg": "lightyellowgreen", "attrs": []},
 		"window_name":          {"fg": "black",      "bg": "lightyellowgreen", "attrs": ["bold"]},
 		"session":              {"fg": "black",      "bg": "lightyellowgreen",   "attrs": ["bold"]},
-		"session:prefix":       {"fg": "gray90",     "bg": "darkblue", "attrs": ["bold"]}
+		"session:prefix":       {"fg": "gray90",     "bg": "darkblue", "attrs": ["bold"]},
+		"system_load_gradient": {"fg": "darkblue",   "bg": "black",    "attrs": ["bold"]},
+                "hostname":             {"fg": "black",      "bg": "darkblue", "attrs": ["bold"]}
 	}
 }
