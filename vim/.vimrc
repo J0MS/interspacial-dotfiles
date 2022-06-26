@@ -19,6 +19,7 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tmuxline#enabled = 1
 
 "key maps
+map <F2> :set number! number?<cr>
 set pastetoggle=<F3>
 map <F5> :NERDTreeToggle<CR>
 map <F6> :bp<CR>
@@ -32,7 +33,7 @@ nnoremap <C-H> <C-W><C-H>
 
 
 "themes
-"highlight Visual cterm=reverse ctermbg=NONE
+highlight Visual cterm=reverse ctermbg=NONE
 
 "Global params for run themes inside tmux 
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
