@@ -48,11 +48,12 @@ alias poetry="$HOME/.local/bin/poetry"
 #qfc                                                                                                                                                                                                                 
 [[ -s "$HOME/.qfc/bin/qfc.sh" ]] && source "$HOME/.qfc/bin/qfc.sh"                                                                                                                                                   
                                                                                                                                                                                                                      
-#Test nood                                                                                                                                                                                                           
+#Set alias
 alias "c=xclip"                                                                                                                                                                                                      
 alias "v=xclip -o"    
+alias "lolcat=lolcat.ruby2.5"
 
 #Set TERM variable
-export TERM="xterm-256color"
-[ -z "$TMUX" ] && export TERM=xterm-256color
+#export TERM="xterm-256color"
+#[ -z "$TMUX" ] && export TERM=xterm-256color
 #[ -z "$TMUX" ] && exec tmux

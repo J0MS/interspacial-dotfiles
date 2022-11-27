@@ -39,6 +39,7 @@ highlight Visual cterm=reverse ctermbg=NONE
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 set termguicolors
+set background=dark
 
 "colorscheme nord
 "colorscheme one
@@ -69,6 +70,8 @@ colorscheme lucius
 
 "fuzzy finder conf
 set rtp+=~/.fzf
+" Silver searcher
+let g:ackprg = 'ag --nogroup --nocolor --column'
 
 " Customize fzf colors to match your color scheme
 " " - fzf#wrap translates this to a set of `--color` options
