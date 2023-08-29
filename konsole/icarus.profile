@@ -1,6 +1,6 @@
 [Appearance]
-ColorScheme=Mega-Konsole
-Font=Droid Sans Mono Slashed for Powerline,11,-1,5,50,0,0,0,0,0
+ColorScheme=Gruvbox
+Font=Droid Sans Mono Slashed for Powerline,12,-1,5,50,0,0,0,0,0
 
 [General]
 Icon=yast-services-manager

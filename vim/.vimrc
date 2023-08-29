@@ -67,6 +67,23 @@ set background=dark
 colorscheme lucius
 "colorscheme alduin
 
+"Set line number colors, after global colorscheme
+hi LineNr       term=bold cterm=bold ctermfg=2 guifg=#b3ffff guibg=#050505
+
+"Gitgutter config
+let g:gitgutter_set_sign_backgrounds = 1
+highlight SignColumn guibg=#050505 ctermbg=3
+
+"Cycle through hunks in current buffer
+function! GitGutterNextHunkCycle()
+  let line = line('.')
+  silent! GitGutterNextHunk
+  if line('.') == line
+    1
+    GitGutterNextHunk
+  endif
+endfunction
+
 
 "fuzzy finder conf
 set rtp+=~/.fzf
@@ -102,8 +119,9 @@ let g:VM_maps["Undo"]      = 'u'
 let g:VM_maps["Redo"]      = '<C-r>'
 
 autocmd! BufWritePost ~/.vimrc nested :source ~/.vimrc
-set background=dark
-set t_Co=256
+
+"set background=dark
+"set t_Co=256
 
 " Enable true color
 if exists('+termguicolors')

@@ -1,6 +1,6 @@
 [Appearance]
-ColorScheme=Gruvbox
-Font=Hack [SRC],11,-1,5,50,0,0,0,0,0
+ColorScheme=Moe
+Font=Hack [SRC],12,-1,5,50,0,0,0,0,0
 
 [General]
 Command=su -
