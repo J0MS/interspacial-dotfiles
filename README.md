@@ -15,4 +15,8 @@ $HOME$.config/powerline
 ## vim
 
 
+
+### plugins
+
+
 ## tmux
